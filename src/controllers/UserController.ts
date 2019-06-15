@@ -10,7 +10,7 @@ import {
 } from 'path';
 
 const BASE_URL = config.BASE_URL + '/users';
-const FILE_DIRECTORY = config.FILE_DIRECTORY;
+const FILE_DIRECTORY = config.FILE_DIRECTORY + '/img/';
 
 export interface User {
     id: Number,

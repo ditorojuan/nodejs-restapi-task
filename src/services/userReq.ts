@@ -38,7 +38,6 @@ const reqPageService = (page: any) => {
                                 .then((json) => json.data)
                                 .catch((err) => reject(err));
         
-        console.log(userPage);
         resolve(userPage);
     });
 

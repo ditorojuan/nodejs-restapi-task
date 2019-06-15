@@ -5,8 +5,8 @@
   "main": "dist/server.js",
   "scripts": {
     "test": "ts-mocha -p tsconfig.json test/*.spec.ts  --timeout 60000",
-    "start": "tsc && node dist/server.js",
-    "cron": "tsc && node dist/cron.js",
+    "start": "sudo tsc && sudo node dist/server.js",
+    "cron": "sudo tsc && sudo node dist/cron.js",
     "build": "tsc"
   },
   "keywords": [],
